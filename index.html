@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manitas moviles | Venta y Reparacion de Moviles</title>
+  <meta name="description" content="Venta de moviles nuevos y reacondicionados. Reparacion rapida de pantallas, baterias, puertos y mas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Manitas <span>moviles</span></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#catalogo">Catalogo</a></li>
+          <li><a href="#tiendas">Tiendas</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Tu movil como nuevo en tiempo record</h1>
+          <p class="lead">
+            Reparamos pantallas, bateria, camara y puerto de carga.
+            Tambien vendemos moviles nuevos y reacondicionados con garantia.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacto">Pedir presupuesto</a>
+            <a class="btn btn-light" href="#catalogo">Ver moviles</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img
+            class="hero-image"
+            src="C:/Users/dbermudez/.cursor/projects/e-Proyecto-Cursor/assets/c__Users_dbermudez_AppData_Roaming_Cursor_User_workspaceStorage_cd42625ebc896cb40660fa3b84b409e7_images_jpeg-e2f3ebad-483b-43c5-ba98-8e9d3aec2d12.png"
+            alt="Tecnico reparando un movil en taller"
+          />
+          <h3>Oferta de la semana</h3>
+          <p><strong>Cambio de pantalla</strong> desde <strong>59 EUR</strong></p>
+          <p>Diagnostico gratis y garantia de 90 dias.</p>
+          <div class="home-stores">
+            <p class="home-stores-title">Locales destacados</p>
+            <p><strong>Rondilla - Santa Clara:</strong> Calle Alberto Fernandez 19</p>
+            <p><strong>La Victoria:</strong> Avenida de Burgos 1</p>
+          </div>
+          <a class="btn btn-primary w-full" id="whatsappTop" href="#" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Servicios de reparacion</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Pantalla rota</h3>
+            <p>Reemplazo de pantalla OLED/LCD con repuestos de calidad.</p>
+          </article>
+          <article class="card">
+            <h3>Bateria</h3>
+            <p>Cambio de bateria para mejorar autonomia y rendimiento.</p>
+          </article>
+          <article class="card">
+            <h3>Puerto de carga</h3>
+            <p>Solucion de fallos de carga, conexion y limpieza interna.</p>
+          </article>
+          <article class="card">
+            <h3>Camara y altavoz</h3>
+            <p>Reparamos camara frontal/trasera, microfono y audio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="section section-alt">
+      <div class="container">
+        <h2>Moviles en venta</h2>
+        <p class="subtitle">Stock orientativo. Cada producto indica la tienda donde esta disponible.</p>
+        <div class="cards cards-products">
+          <article class="card product">
+            <img
+              class="product-image"
+              src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+              alt="iPhone 13 128GB"
+              loading="lazy"
+            />
+            <h3>iPhone 13 128GB</h3>
+            <p><strong>Tienda:</strong> Local Avenida de Burgos (La Victoria)</p>
+            <p>Reacondicionado premium, bateria +85%.</p>
+            <p class="price">449 EUR</p>
+          </article>
+          <article class="card product">
+            <img
+              class="product-image"
+              src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg"
+              alt="Samsung S22 256GB"
+              loading="lazy"
+            />
+            <h3>Samsung S22 256GB</h3>
+            <p><strong>Tienda:</strong> Local Alberto Fernandez (Rondilla - Santa Clara)</p>
+            <p>Estado excelente, libre de fabrica.</p>
+            <p class="price">399 EUR</p>
+          </article>
+          <article class="card product">
+            <img
+              class="product-image"
+              src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13-4g.jpg"
+              alt="Xiaomi Redmi Note 13"
+              loading="lazy"
+            />
+            <h3>Xiaomi Redmi Note 13</h3>
+            <p><strong>Tienda:</strong> Local Artesania (Circular - Vadillos)</p>
+            <p>Nuevo, 2 anos de garantia oficial.</p>
+            <p class="price">229 EUR</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tiendas" class="section">
+      <div class="container">
+        <h2>Tiendas disponibles</h2>
+        <p class="subtitle">Busca por zona o por nombre de tienda para encontrar el local mas cercano.</p>
+        <div class="store-search">
+          <label for="zonaBusqueda" class="search-label">Buscar tienda</label>
+          <input
+            id="zonaBusqueda"
+            class="search-input"
+            type="search"
+            placeholder="Ej: centro, norte, chamartin..."
+            aria-describedby="resultadoBusqueda"
+          />
+        </div>
+        <div class="store-actions">
+          <button id="showAllStoresBtn" class="btn btn-light" type="button">Mostrar todas las tiendas</button>
+        </div>
+        <p id="autocompleteHint" class="autocomplete-hint" aria-live="polite"></p>
+        <p id="resultadoBusqueda" class="search-result" aria-live="polite">Escribe en la barra o pulsa "Mostrar todas las tiendas".</p>
+        <div id="listaTiendas" class="cards stores-grid">
+          <article
+            class="card store-card"
+            tabindex="0"
+            role="button"
+            data-store-id="artesania"
+            data-store-zone="Circular - Vadillos"
+            data-store-name="Local Artesania"
+            data-store-address="Calle Artesania 2, Circular - Vadillos, Valladolid"
+            data-store-products="iPhone reacondicionados, Cambios de pantalla, Fundas y protectores"
+            data-store-phone="+34 983 214 736"
+          >
+            <h3>Local Artesania</h3>
+            <p class="store-zone">Zona: Circular - Vadillos</p>
+            <p class="store-address">Calle Artesania 2, Valladolid</p>
+            <p>Telefono: <a href="tel:+34983214736">+34 983 214 736</a></p>
+          </article>
+          <article
+            class="card store-card"
+            tabindex="0"
+            role="button"
+            data-store-id="alberto"
+            data-store-zone="Rondilla - Santa Clara"
+            data-store-name="Local Alberto Fernandez"
+            data-store-address="Calle Alberto Fernandez 19, Rondilla - Santa Clara, Valladolid"
+            data-store-products="Samsung Galaxy, Cambios de bateria, Accesorios de carga"
+            data-store-phone="+34 983 527 841"
+          >
+            <h3>Local Alberto Fernandez</h3>
+            <p class="store-zone">Zona: Rondilla - Santa Clara</p>
+            <p class="store-address">Calle Alberto Fernandez 19, Valladolid</p>
+            <p>Telefono: <a href="tel:+34983527841">+34 983 527 841</a></p>
+          </article>
+          <article
+            class="card store-card"
+            tabindex="0"
+            role="button"
+            data-store-id="garcilaso"
+            data-store-zone="Rondilla - Santa Clara"
+            data-store-name="Local Garcilaso de la Vega"
+            data-store-address="Calle Garcilaso de la Vega 4, Rondilla - Santa Clara, Valladolid"
+            data-store-products="Google Pixel, Reparacion de camara, Cristales templados"
+            data-store-phone="+34 983 618 503"
+          >
+            <h3>Local Garcilaso de la Vega</h3>
+            <p class="store-zone">Zona: Rondilla - Santa Clara</p>
+            <p class="store-address">Calle Garcilaso de la Vega 4, Valladolid</p>
+            <p>Telefono: <a href="tel:+34983618503">+34 983 618 503</a></p>
+          </article>
+          <article
+            class="card store-card"
+            tabindex="0"
+            role="button"
+            data-store-id="burgos"
+            data-store-zone="La Victoria"
+            data-store-name="Local Avenida de Burgos"
+            data-store-address="Avenida de Burgos 1, La Victoria, Valladolid"
+            data-store-products="iPhone 13, Samsung S22, Reparaciones en menos de 1 hora"
+            data-store-phone="+34 983 492 167"
+          >
+            <h3>Local Avenida de Burgos</h3>
+            <p class="store-zone">Zona: La Victoria</p>
+            <p class="store-address">Avenida de Burgos 1, Valladolid</p>
+            <p>Telefono: <a href="tel:+34983492167">+34 983 492 167</a></p>
+          </article>
+        </div>
+        <article id="storeInfo" class="store-info" aria-live="polite">
+          <h3 id="storeInfoName">Selecciona una tienda</h3>
+          <div class="store-info-layout">
+            <iframe
+              id="storeInfoMapPreview"
+              class="store-local-image"
+              src=""
+              title="Vista de la direccion en Google Maps"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div>
+              <p id="storeInfoAddress">Haz clic en un local para ver su direccion y productos.</p>
+              <p id="storeInfoHours" class="store-hours">Horario: --</p>
+              <p id="storeInfoPhone">Telefono: --</p>
+            </div>
+          </div>
+          <div id="storeInfoProducts" class="store-product-list"></div>
+          <a id="storeInfoMap" class="btn btn-light" href="#" target="_blank" rel="noopener">Ver en Google Maps</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="precios" class="section">
+      <div class="container">
+        <h2>Precios rapidos de referencia</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Servicio</th>
+                <th>Desde</th>
+                <th>Tiempo estimado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cambio de pantalla</td>
+                <td>59 EUR</td>
+                <td>45-90 min</td>
+              </tr>
+              <tr>
+                <td>Cambio de bateria</td>
+                <td>39 EUR</td>
+                <td>30-60 min</td>
+              </tr>
+              <tr>
+                <td>Puerto de carga</td>
+                <td>49 EUR</td>
+                <td>1-2 horas</td>
+              </tr>
+              <tr>
+                <td>Diagnostico completo</td>
+                <td>Gratis</td>
+                <td>15-20 min</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq">
+          <details>
+            <summary>Cuanto tarda una reparacion?</summary>
+            <p>La mayoria de reparaciones comunes se entregan el mismo dia.</p>
+          </details>
+          <details>
+            <summary>Ofrecen garantia?</summary>
+            <p>Si, todas nuestras reparaciones incluyen garantia de 90 dias.</p>
+          </details>
+          <details>
+            <summary>Compran moviles usados?</summary>
+            <p>Si, hacemos valoracion en tienda segun estado y modelo.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Manitas moviles</h3>
+        <p>Red de tiendas en varias zonas de Valladolid.</p>
+        <p>Lun-Sab: 10:00 - 20:00</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p>Telefono: +34 600 000 000</p>
+        <p>Email de ayuda: manitasmoviles@gmail.com</p>
+      </div>
+      <div>
+        <h3>Atencion rapida</h3>
+        <a class="btn btn-primary w-full" id="whatsappBottom" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
