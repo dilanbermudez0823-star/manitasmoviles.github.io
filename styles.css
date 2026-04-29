@@ -74,19 +74,27 @@ body {
 /* HERO COVER */
 .hero-cover {
   width: 100%;
-  line-height: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+main {
+  padding: 0;
+  margin: 0;
 }
 
 .hero-cover-img {
   width: 100%;
-  height: 420px;
-  object-fit: cover;
-  object-position: center top;
+  aspect-ratio: 7 / 4;
+  object-fit: contain;
   display: block;
+  border-radius: 0;
 }
 
 .hero {
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .hero-grid {
